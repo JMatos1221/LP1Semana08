@@ -10,7 +10,7 @@ namespace GameUnits
         /// <summary>
         /// Class properties
         /// </summary>
-        public override int Value { get; }
+        public override float Value { get; }
         public int AttackPower { get; }
         public int XP { get; set; }
         public override int Health { get; set; }

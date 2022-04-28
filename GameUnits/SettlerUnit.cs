@@ -10,7 +10,7 @@ namespace GameUnits
         /// <summary>
         /// Class properties
         /// </summary>
-        public override int Value { get; }
+        public override float Value { get; }
 
         /// <summary>
         /// Class constructor
