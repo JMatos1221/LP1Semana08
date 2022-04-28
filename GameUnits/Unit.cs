@@ -37,5 +37,13 @@ namespace GameUnits
         {
             Console.WriteLine($"A unidade moveu-se {v} casas.");
         }
+
+        /// <summary>
+        /// Overrides method ToString() to return unit's health and value
+        /// </summary>
+        public override string ToString()
+        {
+            return $"{Health} health {Value} value";
+        }
     }
 }

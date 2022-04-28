@@ -27,7 +27,7 @@ namespace GameUnits
             Health = health + xp;
             AttackPower = attackPower;
             Value = attackPower + xp;
-
+            XP = xp;
         }
 
         /// <summary>
@@ -35,5 +35,10 @@ namespace GameUnits
         /// </summary>
         /// <param name="u">Unit to attack</param>
         public void Attack(Unit u) { }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" {AttackPower} attack power {XP} xp";
+        }
     }
 }

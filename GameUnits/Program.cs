@@ -19,13 +19,17 @@ namespace GameUnits // Note: actual namespace depends on the project name.
             settlerUnit.Move(new Vector2(2, 2));
 
             /// <summary>
-            /// Printing both units value and health
+            /// Printing both units value and health and ToString() methods
             /// </summary>
             Console.WriteLine($"Military Unit has {militaryUnit.Value} " +
             $"value and {militaryUnit.Health} health.");
 
             Console.WriteLine($"Settler Unit has {settlerUnit.Value} " +
             $"value and {settlerUnit.Health} health.");
+
+            Console.WriteLine(militaryUnit.ToString());
+
+            Console.WriteLine(settlerUnit.ToString());
         }
     }
 }
